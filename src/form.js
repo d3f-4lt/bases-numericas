@@ -28,7 +28,7 @@ const MeuForm = (props) => {
           <Form.Group>
             <InputGroup>
               <InputGroup.Text>HEX</InputGroup.Text>
-              <Form.Control type="number" placeholder="Hexadecimal" onChange={props.hex_f} value={props.hex} />
+              <Form.Control type="text" placeholder="Hexadecimal" onChange={props.hex_f} value={props.hex} />
             </InputGroup>
           </Form.Group>
         </Form>
